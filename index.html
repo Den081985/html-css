@@ -4,103 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>html-css</title>
   </head>
   <body>
-    <table cellspacing="10">
-      <tr>
-        <td>
-          <img
-            src="./photo-1478510862486-5da2c60876d2.jpg"
-            alt="image"
-            width="468"
-          />
-        </td>
-        <td>
+    <div class="container">
+      <div class="header">
+        <ul>
+          <li>
+            <a href="https://stackoverflow.com/">Stackoverflow</a>
+          </li>
+          <li>
+            <a href="https://caniuse.com/">Can i Use</a>
+          </li>
+          <li>
+            <a href="https://sass-lang.com/guide"> Sass</a>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <img
+          src="./photo-1478510862486-5da2c60876d2.jpg"
+          alt="image"
+          width="468"
+          class="image"
+        />
+        <div class="firstchild">
           <h1>Lorem ipsum dolor sit.</h1>
           <p>
-            <em
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              justo risus, venenatis et sollicitudin nec, vehicula vitae eros.
-              Integer iaculis dapibus risus, ut pellentesque mauris imperdiet
-              in. Etiam et dolor massa. Praesent commodo, odio sed fringilla
-              pretium, ex nisi rhoncus lacus, non malesuada ex felis in magna.
-              Curabitur et sem id nisi mollis vulputate non eu turpis. Aenean
-              vehicula dolor id orci venenatis, ut cursus quam commodo. Nullam
-              nisi felis, semper quis tortor id, feugiat auctor felis. Donec vel
-              nisi a tortor egestas cursus id in nunc. Nam vestibulum tristique
-              justo ac tempor. Fusce eleifend magna massa.</em
-            >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo
+            risus, venenatis et sollicitudin nec, vehicula vitae eros. Integer
+            iaculis dapibus risus, ut pellentesque mauris imperdiet in. Etiam et
+            dolor massa. Praesent commodo, odio sed fringilla pretium, ex nisi
+            rhoncus lacus, non malesuada ex felis in magna. Curabitur et sem id
+            nisi mollis vulputate non eu turpis. Aenean vehicula dolor id orci
+            venenatis, ut cursus quam commodo. Nullam nisi felis, semper quis
+            tortor id, feugiat auctor felis. Donec vel nisi a tortor egestas
+            cursus id in nunc. Nam vestibulum tristique justo ac tempor. Fusce
+            eleifend magna massa.
           </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <p>
-      <strong
-        >Ut a lacus a turpis viverra lobortis vel et leo. Mauris bibendum orci
-        et semper malesuada. Aenean tempor urna at justo volutpat porta.
-        Praesent sed laoreet odio</strong
-      >
-      Ut lacinia tristique sapien eget auctor. Aliquam sed eleifend mauris.
-      Suspendisse sed diam consectetur, varius magna nec, gravida arcu. Donec
-      aliquet dignissim nibh, auctor fringilla dui. Morbi eget sem vitae quam
-      porta aliquet sed vitae tellus. In tempus magna quis arcu aliquet, eget
-      hendrerit augue consequat. Mauris consequat eros sed varius pharetra. Nunc
-      non blandit purus. Fusce facilisis gravida posuere. Phasellus tincidunt
-      volutpat ultricies. Etiam lacinia tellus quis neque dictum fringilla.
-      Maecenas gravida nisi vitae enim sollicitudin feugiat.
-    </p>
-    <hr />
-    <h2>Lorem ipsum dolor sit.</h2>
-    <ul>
-      <li>
-        <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
-      </li>
-      <li><a href="http://ru.hexlet.io/programs" target="_blank">Hexlet</a></li>
-    </ul>
-    <hr />
-    <h2>Lorem ipsum dolor sit.</h2>
-    <ol>
-      <li>Lorem ipsum dolor.</li>
-      <li>Aliquam nulla metus.</li>
-      <li>Nulla vestibulum ante.</li>
-      <li>Duis vel scelerisque.</li>
-    </ol>
-    <hr />
+        </div>
+        <div class="secondchild">
+          <p>
+            <strong
+              >Ut a lacus a turpis viverra lobortis vel et leo. Mauris bibendum
+              orci et semper malesuada. Aenean tempor urna at justo volutpat
+              porta. Praesent sed laoreet odio</strong
+            >
+            Ut lacinia tristique sapien eget auctor. Aliquam sed eleifend
+            mauris. Suspendisse sed diam consectetur, varius magna nec, gravida
+            arcu. Donec aliquet dignissim nibh, auctor fringilla dui. Morbi eget
+            sem vitae quam porta aliquet sed vitae tellus. In tempus magna quis
+            arcu aliquet, eget hendrerit augue consequat. Mauris consequat eros
+            sed varius pharetra. Nunc non blandit purus. Fusce facilisis gravida
+            posuere. Phasellus tincidunt volutpat ultricies. Etiam lacinia
+            tellus quis neque dictum fringilla. Maecenas gravida nisi vitae enim
+            sollicitudin feugiat.
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Lorem ipsum dolor sit.</h3>
 
-    <h2>Duis vel scelerisque.</h2>
-    <table>
-      <tr>
-        <th>Suspendisse potenti.</th>
-        <th>Etiam varius.</th>
-        <th>Mauris a.</th>
-      </tr>
-      <tr>
-        <td>Curabitur consequat.</td>
-        <td>Pellentesque facilisis.</td>
-        <td>Duis sed.</td>
-      </tr>
-      <tr>
-        <td>Praesent et.</td>
-        <td>Praesent et.</td>
-        <td>Curabitur accumsan.</td>
-      </tr>
-    </table>
-    <hr />
-    <h3>Class aptent taciti sociosqu.</h3>
-    <form action="/">
-      <label for="name">Fusce gravida.</label>
-      <input type="text" id="name" placeholder="Pellentesque porttitor." />
-      <br />
-      <label for="email"> gravida email</label>
-      <input type="email" id="email" placeholder="email" />
-      <br />
-      <label for="text">Sed auctor: </label>
-      <br />
-      <textarea name="" id="text" cols="20" rows="10"></textarea>
-      <br />
-      <input type="submit" value="porttitor" />
-    </form>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
+
+        <a href="http://ru.hexlet.io/programs" target="_blank">Hexlet</a>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <ol class="list">
+          <li>Lorem ipsum dolor.</li>
+          <li>Aliquam nulla metus.</li>
+          <li>Nulla vestibulum ante.</li>
+          <li>Duis vel scelerisque.</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Duis vel scelerisque.</h2>
+        <table class="table">
+          <tr>
+            <th>Suspendisse potenti.</th>
+            <th>Etiam varius.</th>
+            <th>Mauris a.</th>
+          </tr>
+          <tr>
+            <td>Curabitur consequat.</td>
+            <td>Pellentesque facilisis.</td>
+            <td>Duis sed.</td>
+          </tr>
+          <tr>
+            <td>Praesent et.</td>
+            <td>Praesent et.</td>
+            <td>Curabitur accumsan.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <h3>Class aptent taciti sociosqu.</h3>
+        <div class="contact">
+          <form action="">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Fusce gravida:</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Pellentesque porttitor."
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email"> gravida email:</label>
+                <input type="email" id="email" placeholder="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="text">Sed auctor: </label>
+
+              <textarea name="" id="text" cols="20" rows="10"></textarea>
+
+              <input class="btn" type="submit" value="Porttitor" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

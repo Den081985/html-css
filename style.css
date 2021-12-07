@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+body {
+  background-color: #b98e8e;
+  font: normal 15px "Lora", serif;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}
+a:active {
+  color: darkslategrey;
+  font-size: 17px;
+}
+.image {
+  max-width: 468px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.block p {
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2px; */
+  /* word-spacing: 3px; */
+}
+
+/* Box Model */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.bg-yellow {
+  background-color: #fff9dc;
+}
+.bg-green {
+  background-color: #e5ffe7;
+}
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: darkslategrey;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+.table th {
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 17px;
+  color: darkslategrey;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 10px 0;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+.row .form-group {
+  flex: 1 1 auto;
+  margin-right: 15px;
+}
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.block img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.secondchild {
+  clear: both;
+}
+.block {
+  display: flow-root;
+}
+
+.form-group .btn {
+  background: #b98e8e;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 25%;
+  width: 50%;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #ffe5e5;
+  display: flex;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.header ul {
+  flex: 1;
+  display: flex;
+}
+.header ul li {
+  list-style: none;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 485px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  .container {
+    display: block;
+    max-width: 100%;
+    margin: 0 1em;
+  }
+
+  .block {
+    display: block;
+    max-width: 100%;
+  }
+
+  .block img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .header {
+    display: block;
+    max-width: 100%;
+  }
+
+  .row {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
